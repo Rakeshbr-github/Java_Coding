@@ -6,6 +6,8 @@ public class Largest_of_3_numbers {
 
 	public static void main(String[] args) {
 
+		
+
 	  Scanner sc=new Scanner(System.in);
 	  System.out.println("Enters the numbers...");
 	   int a=sc.nextInt();
