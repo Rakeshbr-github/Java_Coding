@@ -12,6 +12,8 @@ import java.util.Map;
 //D             500
 //M             1000
 
+//Given a roman numeral, convert it to an integer.
+
 public class Roman_numerals {
 
 	
@@ -36,9 +38,12 @@ public class Roman_numerals {
      int currentValue = romanMap.get(currentChar);
 
      // If the current value is less than the previous value, subtract it
-     if (currentValue < prevValue) {
-         total = total-currentValue;
-     } else {
+     if (currentValue < prevValue) 
+     {
+         total = total-currentValue ;
+     } 
+     else 
+     {
          // Otherwise, add it to the total
          total = total+currentValue;
      }
@@ -54,15 +59,16 @@ public class Roman_numerals {
 		System.out.println("Sucessfully executing program.....");
 		System.out.println("");
 		
-		romanToInt("III");
-		int result1=romanToInt("III");
+		int result1=romanToInt("II");
 		System.out.println(result1);
-		romanToInt("LVIII");
 		int result2=romanToInt("LVIII");
 		System.out.println(result2);
-		romanToInt("MCMXCIV");
 		int result3=romanToInt("MCMXCIV");
 		System.out.println(result3);
+		int result4=romanToInt("ICD");
+		System.out.println(result4);
+
+
 		
 		System.out.println("");
 		System.out.println("Sucessfully ran the Roman to Integer program!!!!");

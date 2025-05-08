@@ -1,5 +1,11 @@
 package LeetCode_Easy;
 
+
+//1)Anagram is a condition where the string1 and string 2 both contains 
+//all the characters  exactly the same number of times but in a shuffled manner
+//Example-  Rakesh --> hesark  -->Anagram
+//Example- Cat --> rat --> Not an Anagram
+
 import java.util.Arrays;
 import java.util.Scanner;
 

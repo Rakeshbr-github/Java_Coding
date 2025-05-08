@@ -13,7 +13,7 @@ public class Reverse_each_word_in_String {
 		  for(String w:words)
 		  {
 			  String reverseword="";
-			  for(int i=w.length()-1;i>=00;i--)
+			  for(int i=w.length()-1;i>=0;i--)
 			  {
 				  reverseword=reverseword+w.charAt(i);
 			  }
