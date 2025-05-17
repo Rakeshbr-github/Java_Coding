@@ -67,8 +67,6 @@ public class Roman_numerals {
 		System.out.println(result3);
 		int result4=romanToInt("ICD");
 		System.out.println(result4);
-
-
 		
 		System.out.println("");
 		System.out.println("Sucessfully ran the Roman to Integer program!!!!");
