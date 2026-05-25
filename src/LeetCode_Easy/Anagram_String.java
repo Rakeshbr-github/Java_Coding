@@ -33,10 +33,10 @@ public class Anagram_String {
 		}
 		else
 		{
-			return false ;
+			return true ;
 		}
 		return true;
-    	
+
     }
 
 	
