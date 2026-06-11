@@ -5,36 +5,29 @@ import java.util.Arrays;
 public class CompareArrayindexes_storeMatchingElements {
 
 	public static void main(String[] args) {
-		  int[] a= {1,4,5,7};
-		  int[] b= {6,4,3,7};
-		 int[] c= CompStoreMatchingElements(a,b);
-		 System.out.println(Arrays.toString(c));
+		int[] a= {4,1,7,5};
+		int[] b= {6,4,3,7};
+		int[] c=dupelement(a,b);
 
+		System.out.println(Arrays.toString(c));
+		System.out.println("My Print statment");
 	}
-//	logic method to compare indexes elements 
-	private static int[] CompStoreMatchingElements(int[] a, int[] b) {
-		 int count=0;
-		// Step 1: Count matching index elements
-           for(int i=0;i<a.length;i++)
-           {
-        	   if(a[i]==b[i])
-        	   {
-        		   count++;
-        	   }
-           }
-        // Step 2: Store matching elements
-		int[] c=new int[count];
+	public static int[] dupelement(int[] a,int[] b)
+	{
+		int[] c=new int[Math.min(a.length,b.length)];
 		int k=0;
-   		for(int i=0;i<a.length;i++)
-   		{
-     	   if(a[i]==b[i])
-     	   {
-     		  c[k++]=a[i];
-     	   }
-   		}
-		
-		
-		return c;
+		for(int i=0;i<a.length;i++ )
+		{
+			for(int j=0;j<b.length;j++)
+			{
+				if(a[i]==b[j])
+				{
+					c[k++]=a[i];
+				}
+			}
+		}
+		return Arrays.copyOf(c,k);
+
 	}
 
 }
