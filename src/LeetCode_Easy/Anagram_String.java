@@ -31,10 +31,10 @@ public class Anagram_String {
 				}
 			}
 		}
-		else
-		{
-			return true ;
-		}
+
+
+
+
 		return true;
 
     }
@@ -49,7 +49,6 @@ public class Anagram_String {
 		Scanner sc2=new Scanner(System.in);
 		String String1=sc1.next();
 		String String2=sc2.next();
-		isAnagram(String1,String2);
 		boolean result=isAnagram(String1,String2);
 		System.out.println(result);
 

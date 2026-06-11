@@ -2,7 +2,7 @@ package String_Java_Programs;
 
 import java.util.HashSet;
 
-public class First_non_repeatedChar {
+public class First_repeatedChar {
 
     public static void main(String[] args) {
         String input = "Rakeshaakkrr";
