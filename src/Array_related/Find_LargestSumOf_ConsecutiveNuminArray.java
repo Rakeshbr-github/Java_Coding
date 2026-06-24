@@ -8,7 +8,7 @@ public class Find_LargestSumOf_ConsecutiveNuminArray {
 
         int greatestsum=0;
         int index1=0;
-        int index2=1;
+        int index2=0;
         for(int i=0;i<a.length-1;i++)
         {
             int num=a[i]+a[i+1];
