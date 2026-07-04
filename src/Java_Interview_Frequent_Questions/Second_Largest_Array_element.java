@@ -17,5 +17,26 @@ public class Second_Largest_Array_element {
             }
         }
         System.out.println(a[a.length-2]);
+        second_largest_element(a);
+    }
+
+
+    public static void second_largest_element(int[] a)
+    {
+        int largest=Integer.MIN_VALUE;
+        int second_largest=Integer.MIN_VALUE;
+        for(int i=0;i<a.length;i++)
+        {
+            if(a[i]>largest)
+            {
+                second_largest=largest;
+                largest=a[i];
+            }
+            else if (a[i]>second_largest && a[i]!=largest)
+            {
+                second_largest=a[i];
+            }
+        }
+        System.out.println("The second largest element in the given array is :" +second_largest);
     }
 }
