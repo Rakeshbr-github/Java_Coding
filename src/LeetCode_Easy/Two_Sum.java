@@ -15,7 +15,7 @@ public class Two_Sum {
 				  }
 			  }
 		  }
-	        throw new IllegalArgumentException("No two numbers add up to the target.");
+	        return null;
 
 	  }
 	public static void main(String[] args) {
