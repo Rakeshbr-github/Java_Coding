@@ -16,7 +16,7 @@ public class PrintUsingRegex {
 
 
 
-        String s = "Order 123 and total is $456.78";
+            String s = "Order 123 and total is $456.78";
 //        Pattern pattern = Pattern.compile("\\$\\d+\\.\\d+|\\d+");
 //        Matcher matcher = pattern.matcher(s);
 //        while (matcher.find()) {

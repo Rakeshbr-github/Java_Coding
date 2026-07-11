@@ -1,4 +1,4 @@
-package Java_Interview_Frequent_Questions;
+package Collections_Related;
  
 import java.util.HashMap;
 import java.util.Map;

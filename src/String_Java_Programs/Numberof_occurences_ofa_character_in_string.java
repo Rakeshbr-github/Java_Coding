@@ -1,4 +1,4 @@
-package Java_Interview_Frequent_Questions;
+package String_Java_Programs;
 
 public class Numberof_occurences_ofa_character_in_string {
 

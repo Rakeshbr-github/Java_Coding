@@ -1,6 +1,6 @@
 package String_Java_Programs;
 
-public class Covert_int_IntoString {
+public class Covert_string_IntoInteger {
 
 	public static void main(String[] args) {
 		

@@ -1,4 +1,4 @@
-package Java_Interview_Frequent_Questions;
+package String_Java_Programs;
 
 public class Reverse_each_word_in_String {
 
