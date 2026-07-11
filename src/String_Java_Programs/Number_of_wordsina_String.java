@@ -7,19 +7,30 @@ public class Number_of_wordsina_String {
 	public static void main(String[] args) {
 
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the string value...");
-		String s=sc.nextLine();
-		int stringen=s.length();
-		int count=1;
-		
-		for(int i=0;i<=stringen-1;i++)
+		System.out.println("Enter the String...");
+		String input=sc.nextLine();
+		int count=0;
+		StringBuilder res=new StringBuilder();
+		for(int i=0;i<=input.length()-1;i++)
 		{
-			if(s.charAt(i)==' ' && s.charAt(i+1)!=' ')
+			if(input.charAt(i)!=' ')
 			{
+				res.append(input.charAt(i));
+			}
+			else if(res.length()>0)
+			{
+				System.out.print(res + ",");
 				count++;
+				res.setLength(0);
 			}
 		}
-		System.out.println("Number of words in a given String are : " + count);
+		if(res.length()>0)
+		{
+			System.out.print(res);
+			count++;
+		}
+		System.out.println();
+		System.out.println("Number of words in the given String are:" + count);
 	}
 
 }
