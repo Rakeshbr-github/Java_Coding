@@ -1,4 +1,4 @@
-package Java_Interview_Frequent_Questions;
+package Array_related;
 
 public class Second_Largest_Array_element {
 
